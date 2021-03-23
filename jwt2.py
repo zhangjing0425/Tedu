@@ -70,6 +70,6 @@ class Jwt:
 s = Jwt.encode({'name':'zhangjing'},'123456')
 print(s)
 
-
+print("======================================")
 print(Jwt.decode(s,'123456'))
 
